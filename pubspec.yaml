@@ -1,0 +1,28 @@
+name: cliphistory
+description: Productivity Application.
+version: 1.0.0+1
+
+environment:
+   sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+   flutter:
+      sdk: flutter
+   cupertino_icons: ^0.1.2
+   intl: ^0.16.1
+   localstorage: ^3.0.1+4
+   share: ^0.6.3+5
+
+dev_dependencies:
+   flutter_test:
+      sdk: flutter
+flutter:
+   uses-material-design: true
+
+   assets:
+      - assets/res/
+
+   fonts:
+      - family: mfg
+        fonts:
+           - asset: assets/fonts/mfg.ttf
